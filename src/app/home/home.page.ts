@@ -7,6 +7,18 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  enteredReason = '';
+  inputAmount = '';
+
   constructor() {}
+
+  removeItem(){
+
+  }
+
+  resetForm(){
+      this.enteredReason = '';
+      this.inputAmount = '';
+  }
 
 }
